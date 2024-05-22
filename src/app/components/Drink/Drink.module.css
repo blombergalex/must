@@ -1,0 +1,29 @@
+.drinkContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.julmust  {
+    background-color: rgb(139, 191, 139);
+    border-radius: 10px;
+    color: #000;
+    padding: 16px;   
+    margin: 8px;          
+}
+
+.påskmust {
+    background-color: rgb(249, 220, 126);
+    border-radius: 10px;
+    padding: 16px;
+    color: #000;
+    margin: 8px;          
+}
+
+@media screen and (min-width: 768px) {
+    .drinkContainer {
+        flex: 0 0 calc(50%  - 32px /2)
+    }
+}
