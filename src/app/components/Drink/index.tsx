@@ -15,7 +15,6 @@ const Drink = ({title, subtitle, className, image, updateFunction}:DrinkProps) =
     }
     
     return (
-
         <div className={`${styles.drinkContainer} ${styles[className]}`}>
             <h2>{title}</h2>
             <h4>{subtitle}</h4>

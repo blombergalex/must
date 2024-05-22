@@ -1,0 +1,9 @@
+.voteContainer {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.voteContainer > p {
+    margin: 8px;
+}
