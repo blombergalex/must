@@ -1,0 +1,7 @@
+.winnerContainer {
+    flex: 0 0 100%;
+    color: chocolate;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 24px;
+}
