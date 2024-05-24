@@ -25,7 +25,7 @@ const Drink = ({title, subtitle, className, image, updateFunction}:DrinkProps) =
             </div>
             <div className={styles.buttonContainer}>
                 <button onClick={handleClick} className={styles.voteButton}>{title} är bäst</button>
-                </div>
+            </div>
         </div>
     )
 }
